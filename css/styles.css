@@ -232,4 +232,10 @@ body {
     width: 200;
     height: 50px;
 }
+.elemento {
+  background-image: url('ruta/a/tu/imagen.jpg');
+  background-size: cover; /* Ajusta la imagen para cubrir el área del elemento */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
  
