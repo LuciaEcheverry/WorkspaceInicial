@@ -188,3 +188,48 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+
+body {
+  margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px; 
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  background-color: #2F2525
+}
+
+.content label {
+  color: #D9D9D9;
+  font-size: 25px;
+}
+
+.content h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.content button{
+  background-color: #5F676F; /* Color de fondo gris */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición en el color de fondo */
+    width: 200;
+    height: 50px;
+}
+ 
